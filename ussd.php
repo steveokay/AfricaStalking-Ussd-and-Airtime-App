@@ -246,9 +246,6 @@ if($level != null || $level != ''){
           //JSON encode
           $recipientStringFormat = json_encode($recipients);
 
-          //$username   = "sandbox";
-          //$apikey     = "cbaa5b446f5a6efe00a4325d17b33ff1473e83f5d9670ccf8baffa0561dbf472";
-
           $response .= "You will Receive Airtime\n";
           //$gateway = new AfricasTalkingGateway($username, $apikey);
           $gateway = new AfricasTalkingGateway(AT_USERNAME, AT_APIKEY,AT_ENVIRONMENT);
